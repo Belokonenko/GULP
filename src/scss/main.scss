@@ -3,9 +3,11 @@
 /**
 * Подключение шрифтов локально из папки "./src/fonts"
 */
+
 @import 'config/fonts';
 
 /** Подключение переменных */
+
 @import 'config/vars';
 
 /**
@@ -16,7 +18,7 @@
 // @import 'config/patternSelectors';
 
 /** Обнуление */
-// @import 'config/reset';
+ @import './libs/reset-webacad';
 
 /**
 * Библиотеки
@@ -34,6 +36,7 @@
 * Общие параметры, шаблоны(заготовки) и вспомогательные классы
 */
 // @import 'config/base';
+@import './base/base.scss';
 
 /**
 * БЕМ блоки используемые во всё проекте

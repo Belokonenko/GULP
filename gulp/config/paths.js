@@ -7,14 +7,14 @@ const filePaths = {
   build: {
     js: `${buildFolder}/js/`,
     css: `${buildFolder}/css/`,
-    images: `${buildFolder}/images/`,
+    images: `${buildFolder}/img/`,
     fonts: `${buildFolder}/fonts/`,
     static: `${buildFolder}/static/`,
   },
   src: {
     js: `${srcFolder}/js/*.js`,
-    images: `${srcFolder}/images/**/*.{jpg,jpeg,png,gif,webp}`,
-    svg: `${srcFolder}/images/**/*.svg`,
+    images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,webp}`,
+    svg: `${srcFolder}/img/**/*.svg`,
     scss: [`${srcFolder}/scss/main.scss`, `${srcFolder}/scss/pages/*.scss`],
     html: `${srcFolder}/*.html`,
     static: `${srcFolder}/static/**/*.*`,
