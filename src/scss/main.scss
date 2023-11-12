@@ -38,7 +38,7 @@
 /**
 * БЕМ блоки используемые во всё проекте
 */
-// @import 'config/common';
+@import '../components/bem-blocks/import-bem-blocks.scss';
 
 /**
 * Подключение стилей отдельных блоков и секций
