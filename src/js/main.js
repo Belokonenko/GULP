@@ -1,64 +1,66 @@
-/**
- * !(i)
- * Код попадает в итоговый файл, только когда вызвана функция, например FLSFunctions.spollers();
- * Или когда импортирован весь файл, например import "files/script.js";
- * Неиспользуемый код в итоговый файл не попадает.
+console.log("test");
 
- * Если мы хотим добавить модуль следует его раскомментировать
- */
-// import MousePRLX from './libs/parallaxMouse'
-// import AOS from 'aos'
-// import Swiper, { Navigation, Pagination } from 'swiper';
+// /**
+//  * !(i)
+//  * Код попадает в итоговый файл, только когда вызвана функция, например FLSFunctions.spollers();
+//  * Или когда импортирован весь файл, например import "files/script.js";
+//  * Неиспользуемый код в итоговый файл не попадает.
 
-import BaseHelpers from './helpers/BaseHelpers';
-import PopupManager from './modules/PopupManager';
-import BurgerMenu from './modules/BurgerMenu';
-import Tabs from './modules/Tabs';
-import Accordion from './modules/Accordion';
+//  * Если мы хотим добавить модуль следует его раскомментировать
+//  */
+// // import MousePRLX from './libs/parallaxMouse'
+// // import AOS from 'aos'
+// // import Swiper, { Navigation, Pagination } from 'swiper';
 
-BaseHelpers.checkWebpSupport();
+// import BaseHelpers from './helpers/BaseHelpers';
+// import PopupManager from './modules/PopupManager';
+// import BurgerMenu from './modules/BurgerMenu';
+// import Tabs from './modules/Tabs';
+// import Accordion from './modules/Accordion';
 
-BaseHelpers.addTouchClass();
+// BaseHelpers.checkWebpSupport();
 
-BaseHelpers.addLoadedClass();
+// BaseHelpers.addTouchClass();
 
-BaseHelpers.headerFixed();
+// BaseHelpers.addLoadedClass();
 
-/**
- * Открытие/закрытие модальных окон
- * Чтобы модальное окно открывалось и закрывалось
- * На окно повешай атрибут data-popup="<название окна>"
- * На кнопку, которая вызывает окно повешай атрибут data-type="<название окна>"
+// BaseHelpers.headerFixed();
 
- * На обертку(.popup) окна добавь атрибут '[data-close-overlay]'
- * На кнопку для закрытия окна добавь класс '.button-close'
- * */
-new PopupManager();
+// /**
+//  * Открытие/закрытие модальных окон
+//  * Чтобы модальное окно открывалось и закрывалось
+//  * На окно повешай атрибут data-popup="<название окна>"
+//  * На кнопку, которая вызывает окно повешай атрибут data-type="<название окна>"
 
-/**
- *  Модуль для работы с меню (Бургер)
- * */
-new BurgerMenu().init();
+//  * На обертку(.popup) окна добавь атрибут '[data-close-overlay]'
+//  * На кнопку для закрытия окна добавь класс '.button-close'
+//  * */
+// new PopupManager();
 
-/**
- *  Библиотека для анимаций
- *  документация: https://michalsnik.github.io/aos
- * */
-// AOS.init();
+// /**
+//  *  Модуль для работы с меню (Бургер)
+//  * */
+// new BurgerMenu().init();
 
-/**
- * Параллакс мышей
- * */
-// new MousePRLX();
+// /**
+//  *  Библиотека для анимаций
+//  *  документация: https://michalsnik.github.io/aos
+//  * */
+// // AOS.init();
 
-new Tabs('tabs-example', {
-	onChange: (data) => {
-		console.log(data);
-	},
-});
+// /**
+//  * Параллакс мышей
+//  * */
+// // new MousePRLX();
 
-new Accordion('.accordion', {
-	shouldOpenAll: false, // true
-	defaultOpen: [], // [0,1]
-	collapsedClass: 'open',
-});
+// new Tabs('tabs-example', {
+// 	onChange: (data) => {
+// 		console.log(data);
+// 	},
+// });
+
+// new Accordion('.accordion', {
+// 	shouldOpenAll: false, // true
+// 	defaultOpen: [], // [0,1]
+// 	collapsedClass: 'open',
+// });
