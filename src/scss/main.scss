@@ -43,12 +43,5 @@
 /**
 * Подключение стилей отдельных блоков и секций
 */
-@import '../components/blocks/header/header.scss';
-@import '../components/blocks/main/_main.scss';
 
-// @import 'components/header';
-// @import 'components/popup';
-// @import 'components/checkbox';
-// @import 'components/tabs';
-// @import 'components/accordion';
-// @import 'components/footer';
+@import '../components/blocks/import-blocks.scss';
