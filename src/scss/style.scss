@@ -1,0 +1,18 @@
+@import "./libs/_reset-webacad.scss";
+
+@import "./base/_var.scss";
+@import "./base/_fonts.scss";
+@import "./base/_base.scss";
+
+@import "./mixins/_mixin.scss";
+
+@import "../parts/elements/_elements.scss";
+
+@import "../parts/header/_header.scss";
+@import "../parts/main/_main.scss";
+@import "../parts/footer/_footer.scss";
+
+@import"../parts/catalog/_catalog.scss";
+
+@import "../parts/stab/_stab.scss";
+
