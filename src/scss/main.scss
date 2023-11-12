@@ -16,7 +16,7 @@
 // @import 'config/patternSelectors';
 
 /** Обнуление */
-@import 'config/reset';
+// @import 'config/reset';
 
 /**
 * Библиотеки
@@ -43,6 +43,7 @@
 /**
 * Подключение стилей отдельных блоков и секций
 */
+@import '../components/blocks/header/header.scss';
 // @import 'components/header';
 // @import 'components/popup';
 // @import 'components/checkbox';
