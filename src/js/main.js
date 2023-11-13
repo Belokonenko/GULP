@@ -3,15 +3,16 @@ import burger from '../components/blocks/header/top/burger/burger.js';
 import order from '../components/blocks/header/order/_order.js';
 import navProduct from '../components/blocks/header/nav-product/_nav-product.js';
 import seeds from '../components/blocks/main/seeds/_seeds.js';
-import carousel from './modules/carousel.js';
+// import carousel from './modules/carousel.js';
+import novelties from '../components/blocks/main/novelties/_novelties.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-    carousel();
-  // burger();
-  // order();
-  // navProduct();
-  // seeds();
-  // novelties();
+    novelties();
+    // carousel();
+  burger();
+  order();
+  navProduct();
+  seeds();
 });
 
 // /**

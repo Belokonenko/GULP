@@ -7,7 +7,6 @@
     z-index: 999;
     background-color: $color-alpha;
 
-    // font-size: clamp(0.7rem, 0.9vw, 1rem);
     &__container {
         display: grid;
         grid-template-columns: 73% 1fr max-content;
@@ -146,7 +145,7 @@
 }
 @media (max-width: 1060px) {
     .top {
-        // font-size: 0.9rem;
+        font-size: 0.9rem;
     }
 
 }
